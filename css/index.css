@@ -278,9 +278,9 @@
   
   .projects__project:hover {
     box-shadow:
-      0 0 0.5rem var(--highlight-color-1),
-      0 0 1rem var(--highlight-color-1),
-      0 0 1.5rem var(--highlight-color-1);
+      0 0 0.5rem #000b76,
+      0 0 1rem #000b76,
+      0 0 1.5rem #000b76;
     transform: scale(1.05);
   }
   
