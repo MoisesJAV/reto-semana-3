@@ -238,11 +238,11 @@
     list-style:square;
   }
 
-  .projects {
+  .destinations {
     padding: 2rem 0;
   }
   
-  .projects-container {
+  .destinations-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -251,12 +251,12 @@
     padding: 0 2rem;
   }
   
-  .projects__title {
+  .destinations__title {
     font-size: 2rem;
     margin: 0;
   }
   
-  .projects__projects {
+  .destinations__destinations {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -264,7 +264,7 @@
     gap: 2rem;
   }
   
-  .projects__project {
+  .destinations__destiny {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -276,7 +276,7 @@
     transition: all 0.5s;
   }
   
-  .projects__project:hover {
+  .destinations__destiny:hover {
     box-shadow:
       0 0 0.5rem #000b76,
       0 0 1rem #000b76,
@@ -284,17 +284,17 @@
     transform: scale(1.05);
   }
   
-  .projects__project-image-container {
+  .destinations__destiny-image-container {
     display: flex;
     width: 100%;
     margin: 0;
   }
   
-  .projects__project-image {
+  .destinations__destiny-image {
     width: 100%;
   }
   
-  .projects__project-data {
+  .destinations__destiny-data {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
@@ -302,36 +302,36 @@
     padding: 0 1rem;
   }
   
-  .projects__project-data-title {
+  .destinations__destiny-data-title {
     color: var(--code-color);
     margin: 0;
   }
   
-  .projects__project-data-core-technology {
+  .destinations__destiny-data-core-technology {
     color: var(--highlight-color-1);
     font-weight: 500;
     margin: 0;
   }
   
-  .projects__project-data-technologies {
+  .destinations__destiny-data-technologies {
     color: var(--box-shadow);
     font-weight: 400;
     margin: 0;
   }
   
-  .projects__project-data-about {
+  .destinations__destiny-data-about {
     font-weight: 300;
     margin: 0;
   }
   
-  .projects__project-button-container {
+  .destinations__destiny-button-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
   }
   
-  .projects__project-button {
+  .destinations__destiny-button {
     text-decoration: none;
     font-weight: 700;
     background-color: var(--highlight-color-1);
@@ -342,12 +342,12 @@
     transition: all 0.5s;
   }
   
-  .projects__project-button--bg-gold {
+  .destinations__destiny-button--bg-gold {
     background-color: var(--highlight-color-2);
     border: 0.1rem solid var(--highlight-color-2);
   }
   
-  .projects__project-button:hover {
+  .destinations__destiny-button:hover {
     border: 0.1rem solid var(--inverse-theme-color);
     background-color: var(--theme-color);
   }
@@ -503,7 +503,7 @@
   padding: 0;
     }
 
-    .projects-container {
+    .destinations-container {
         display: flex;
         align-items: center;
         padding: 0;
@@ -511,7 +511,7 @@
         margin: auto;
       }
     
-      .projects__projects {
+      .destinations__destinations {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
       }
